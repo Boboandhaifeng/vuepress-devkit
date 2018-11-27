@@ -14,6 +14,7 @@ module.exports = {
   markdown: {
     lineNumbers: true // 代码块是否显示行号
   },
+  theme: 'reco',
   themeConfig: {
     nav:[ // 导航栏配置
       {text: '前端基础', link: '/accumulate/' },
@@ -21,6 +22,11 @@ module.exports = {
       {text: '诗和远方', link: '/others/'},
       {text: '微博', link: 'https://baidu.com'}      
     ],
+    // valine配置
+    valineConfig: {
+      appId: 'ElQamMFAG59OkSjHgGGsbHoy-gzGzoHsz',// your appId
+      appKey: 'vlXaqtE8jM2HBesoj6yPyJ0G', // your appKey
+    },
     // sidebar:{
     //   '/accumulate/': [
     //       {
